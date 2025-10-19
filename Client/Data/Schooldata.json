@@ -1,0 +1,78 @@
+{
+  "courses": [
+    {
+      "courseNumber": "12411",
+      "title": "Matematik",
+      "timeLength": "06:30:00",
+      "startDate": "2025-08-20T00:00:00",
+      "endDate": "2026-01-10T00:00:00",
+      "distance": false,
+      "students": [
+        {
+          "studentID": "b46ae9bf-808f-441a-99d9-f895b91f6a2f",
+          "firstName": "HGej",
+          "lastName": "Hej",
+          "phoneNumber": "123-125 54 54",
+          "address": "Håkan gatan 12",
+          "zipCode": "213 53",
+          "city": "Malmö"
+        }
+      ],
+      "resposible": {
+        "subjects": "Matematik",
+        "firstName": "Hans",
+        "lastName": "Peterson",
+        "phoneNumber": "070-125 24 12",
+        "address": "Hans gatan 12",
+        "zipCode": "213 53",
+        "city": "Stockholm"
+      }
+    }
+  ],
+  "students": [
+    {
+      "studentID": "b46ae9bf-808f-441a-99d9-f895b91f6a2f",
+      "firstName": "HGej",
+      "lastName": "Hej",
+      "phoneNumber": "123-125 54 54",
+      "address": "Håkan gatan 12",
+      "zipCode": "213 53",
+      "city": "Malmö"
+    }
+  ],
+  "teachers": [
+    {
+      "subjects": "Matematik",
+      "firstName": "Hans",
+      "lastName": "Peterson",
+      "phoneNumber": "070-125 24 12",
+      "address": "Hans gatan 12",
+      "zipCode": "213 53",
+      "city": "Stockholm"
+    }
+  ],
+  "educationLeader": [
+    {
+      "employmentDate": "2023-09-14T00:00:00",
+      "subjects": null,
+      "firstName": "William",
+      "lastName": "Borg",
+      "phoneNumber": "070-125 24 12",
+      "address": "Hans gatan 12",
+      "zipCode": "213 53",
+      "city": "Stockholm"
+    }
+  ],
+  "adminstrators": [
+    {
+      "employmentDate": "0001-01-01T00:00:00",
+      "subjects": null,
+      "firstName": "Peter",
+      "lastName": "Japp",
+      "phoneNumber": "076-532 54 12",
+      "address": "gatan 12",
+      "zipCode": "224 53",
+      "city": "Örebro"
+    }
+  ]
+}
