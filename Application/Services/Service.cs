@@ -18,21 +18,6 @@ public class Service(string path) : IService
         Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
         WriteIndented = true
     };
-
-
-
-    public IList<string> FetchSchoolData()
-    {
-        FileStorage filestorage = new();
-        string file = filestorage.ReadFile(_path);
-        return [];
-    }
-
-    public SchoolData GetSchoolData()
-    {
-        throw new NotImplementedException();
-    }
-
     public void SaveSchoolData(SchoolData schooldata)
     {
         var json = JsonSerializer.Serialize(schooldata, _options);
